@@ -1,0 +1,51 @@
+
+/*EXAMPLE of @font-face*/
+/*@font-face {
+  font-family: 'MyWebFont';
+  src: url('fonts/webfont.eot'); 
+  src: url('fonts/webfont.eot?#iefix') format('embedded-opentype'), 
+       url('fonts/webfont.woff2') format('woff2'), 
+       url('fonts/webfont.woff') format('woff'), 
+       url('fonts/webfont.ttf')  format('truetype'), 
+       url('fonts/webfont.svg#svgFontName') format('svg'); 
+}*/
+
+@font-face {
+    font-family: 'uglyquaregular';
+    src: url('fonts/uglyqua-webfont.eot');
+    src: url('fonts/uglyqua-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/uglyqua-webfont.woff2') format('woff2'),
+         url('fonts/uglyqua-webfont.woff') format('woff'),
+         url('fonts/uglyqua-webfont.ttf') format('truetype'),
+         url('fonts/uglyqua-webfont.svg#uglyquaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'commelight';
+    src: url('fonts/comme-light-webfont.eot');
+    src: url('fonts/comme-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/comme-light-webfont.woff2') format('woff2'),
+         url('fonts/comme-light-webfont.woff') format('woff'),
+         url('fonts/comme-light-webfont.ttf') format('truetype'),
+         url('fonts/comme-light-webfont.svg#commelight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'commeregular';
+    src: url('fonts/comme-regular_1-webfont.eot');
+    src: url('fonts/comme-regular_1-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/comme-regular_1-webfont.woff2') format('woff2'),
+         url('fonts/comme-regular_1-webfont.woff') format('woff'),
+         url('fonts/comme-regular_1-webfont.ttf') format('truetype'),
+         url('fonts/comme-regular_1-webfont.svg#commeregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

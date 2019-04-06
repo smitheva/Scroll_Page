@@ -1,0 +1,193 @@
+/*reset*/
+html, body, h1, h2, h3, h4, p, ul, ol, li, a, img {
+	margin:0;
+	padding:0;
+	border:0;
+	outline:0;
+	list-style:none;
+	text-decoration:none;
+}
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+/*fix collapsing parent*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+} 
+/*Start your rules*/
+html{font-size: 62.5%;}
+
+html, body {
+	height: 100%;
+}
+body {
+	
+}
+.panel {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+.middle {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: right 150px bottom 150px;
+}
+	.container {
+		width: 80%;
+		max-width: 1280px;
+		height: 100%;
+		margin: 0 auto;
+		position: relative;
+
+	}
+		.text {
+			margin: 0 auto;
+			padding-top: 10%;
+			position: relative;
+			width: 90%;
+		}
+			.text h2, #footer h2 {
+				color: rgb(100,100,100);
+				font-family: 'uglyquaregular', serif;
+				font-size: 60px;
+				width: 100%;
+			}
+			.text h3 {
+				color:rgb(228,105,55);
+				font-family: 'commeregular', "sans-serif";
+				font-size: 24px;
+				margin-bottom:  10px;
+				width: 100%;
+			}
+			.text p {
+				color:rgb(100,100,100);
+				font-family: 'commelight', Helvetica, Arial,sans-serif;
+				font-size: 14px;
+				font-weight:  600;
+				width: 50%;
+			}
+.front {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 50;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
+}
+
+/*individual panels*/
+#one{ 
+	background: url('../images/bg-two.jpg') top left repeat;
+	background-attachment: fixed;
+	height:100%}
+#two{
+	background-color: rgb(246,221,182);
+	height: 100%;
+}
+#three{ 
+	background-color: rgb(255,165,74);
+	height: 100%;
+}
+#four { 
+	background-color: rgb(228,186,144);
+	height: 100%;
+}
+#footer {
+	height: 40%;
+	background: url('../images/bg-two.jpg') top left repeat;
+	padding-bottom: 20px;
+}
+/*middle*/
+#one .middle { background-image: url('../images/peel-1.png');}
+#two .middle { background-image: url('../images/peel-2.png');}
+#three .middle { background-image: url('../images/peel-3.png');}
+#four .middle { background-image: url('../images/peel-4.png');}
+#five .middle { background-image: url('../images/peel-1.png');}
+
+/*content*/
+
+
+#footer .text {
+	padding-top: 150px;
+}
+
+/*front*/
+#one .front {
+	background-image: url('../images/front-1.png');
+	background-position: 3% bottom;
+	background-size: 12%;
+}
+#two .front {
+	background-image: url('../images/front-vishnu.png');
+	background-position: 4% bottom;
+	background-size: 4%;
+}
+#three .front {
+	background-image: url('../images/front-shiva.png');
+	background-position: 4% bottom;
+	background-size: 5%;
+}
+#four .front {
+	background-image: url('../images/front-devi.png');
+	background-position: 4% bottom;
+	background-size: 7%;
+}
+#footer .front {
+	background-image: url('../images/front-1.png');
+	background-position: right 25% center;
+	background-size: 12%;
+}
+/*dot navigation*/
+#dot-nav {
+	position: fixed;
+	top: 10%;
+	right: 20px;
+	z-index: 100;
+}
+#dot-nav a {
+	display: block;
+	height: 40px;
+	width: 40px;
+	margin: 00;
+	font-size: 40px;
+	color:rgb(228,105,55);
+}
+#dot-nav a:hover, #dot-nav a.active {
+	color: rgb(250,186,53);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
